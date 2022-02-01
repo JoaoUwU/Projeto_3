@@ -1,0 +1,176 @@
+/* Fonte letra */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/* "*" = All */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+li,a,button{
+    font-family: 'Comfortaa', cursive;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 15px;
+    background-color: grey;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100px;
+}
+
+.nav__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 25px;
+
+}
+
+.nav__links li {
+padding: 0px 10px;
+}
+
+.nav__links li {
+    padding: 0px 10px;
+    }
+    
+    .nav__links li a {
+        transition: all 0.3s ease 0s;
+        color: black;
+    }
+    
+    .nav__links li a:hover {
+         color: rgb(255, 255, 255);
+        transition: all 0.3s ease 0s; 
+        
+    } 
+
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__title1{
+    display: flex;
+    font-size: 30px;
+    margin: 10px;
+    color: grey;
+}
+
+.container__title2{
+    display: flex;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 70px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.container2__2{
+    display: flex;
+    flex-direction: column;
+}
+
+.container2__text{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 20px;
+    max-width: 1000px;
+    max-height: 150px;
+    background-color: rgb(206, 203, 203);
+    border: solid 2px rgb(83, 83, 83);
+    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 5px 5px;
+}
+
+.img{
+    display: flex;
+    height: 800px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+.nutri{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    border: solid 2px grey;
+    margin-top: 1px;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    padding: 20px;
+    background-color: grey;
+}
+
+.copy{
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.about__text{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.img__footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.coca{
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 5px 5px; 
+    border-radius: 70px;
+}
+
+.japao{
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 5px 5px; 
+}
