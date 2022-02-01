@@ -1,0 +1,226 @@
+/* Fonte letra */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/* "*" = All */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+li,a,button{
+    font-family: 'Comfortaa', cursive;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 15px;
+    background-color: grey;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100px;
+}
+
+.nav__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 25px;
+
+}
+
+.nav__links li {
+padding: 0px 10px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.nav__links li a:hover {
+     color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s; 
+    
+} 
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 150px;
+    margin-top: 70px;
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+
+.inicio__1{
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio__title {
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.inicio__text{
+    display: flex;
+    max-width: 400px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.photo{
+    display: flex;
+    height: 300px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 10px 10px darkgrey;
+    border: 15px solid white;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-top: 100px;
+}
+
+.comida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    margin-left: 100px;
+}
+
+.comida__text{
+    display: flex;
+    max-width: 500px;
+    text-align: center;
+}
+
+.comida__img{
+    display: flex;
+    height: 300px;
+    box-shadow: 5px 10px 10px darkgrey;
+    border: solid 5px rgb(0, 0, 0);
+
+}
+
+.interior{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.interior__text{
+    display: flex;
+    max-width: 500px;
+    text-align: center;
+}
+
+.interior__img{
+    display: flex;
+    height: 250px;
+    box-shadow: 5px 10px 10px darkgrey;
+    border: solid 5px rgb(0, 0, 0);
+    margin-bottom: 90px;
+}
+
+.title{
+    display: flex;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.noticias{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 200px;
+    border-top: solid 2px rgb(83, 83, 83);
+}
+
+.noticias__1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.noticias__img{
+    display: flex;
+    height: 250px;
+    width: 300px;
+}
+
+.noticias__text{
+    display: flex;
+    max-width: 300px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    padding: 20px;
+    background-color: grey;
+}
+
+.copy{
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.about__text{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.img__footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.coca{
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 5px 5px; 
+    border-radius: 70px;
+}
+
+.japao{
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.466) 5px 5px 5px 5px; 
+}
